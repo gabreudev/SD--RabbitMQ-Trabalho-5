@@ -1,0 +1,78 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    container_name: rabbitmq
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"    # Porta AMQP
+      - "15672:15672"  # Interface Web de Gerenciamento (guest/guest)
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_port_connectivity"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      - mq-network
+
+  producer:
+    build:
+      context: .
+      dockerfile: producer/Dockerfile
+    container_name: producer-service
+    restart: on-failure
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USERNAME=guest
+      - RABBITMQ_PASSWORD=guest
+      - RATE_PER_SEC=6.0
+      - SIMULATE_ERROR_INTERVAL_SEC=15
+    networks:
+      - mq-network
+
+  consumer-sentiment:
+    build:
+      context: .
+      dockerfile: consumer-sentiment/Dockerfile
+    container_name: consumer-sentiment-service
+    restart: on-failure
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USERNAME=guest
+      - RABBITMQ_PASSWORD=guest
+      - PROCESSING_DELAY_MS=350
+    networks:
+      - mq-network
+
+  consumer-support:
+    build:
+      context: .
+      dockerfile: consumer-support/Dockerfile
+    container_name: consumer-support-service
+    restart: on-failure
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USERNAME=guest
+      - RABBITMQ_PASSWORD=guest
+      - PROCESSING_DELAY_MS=350
+    networks:
+      - mq-network
+
+networks:
+  mq-network:
+    driver: bridge

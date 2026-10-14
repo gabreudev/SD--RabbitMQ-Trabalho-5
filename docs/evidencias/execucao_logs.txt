@@ -1,0 +1,200 @@
+rabbitmq  | 2026-10-14 16:27:10.801365+00:00 [info] <0.254.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management[0m
+rabbitmq  | 2026-10-14 16:27:10.801447+00:00 [info] <0.700.0> Resetting node maintenance status[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0> Deprecated features: `management_metrics_collection`: Feature `management_metrics_collection` is deprecated.[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0> By default, this feature can still be used for now.[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0> Its use will not be permitted by default in a future minor RabbitMQ version and the feature will be removed from a future major RabbitMQ version; actual versions to be determined.[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0> To continue using this feature when it is not permitted by default, set the following parameter in your configuration:[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0>     "deprecated_features.permit.management_metrics_collection = true"[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0> To test RabbitMQ as if the feature was removed, set this in your configuration:[0m
+rabbitmq  | [38;5;214m2026-10-14 16:27:10.938082+00:00 [warning] <0.729.0>     "deprecated_features.permit.management_metrics_collection = false"[0m
+rabbitmq  | 2026-10-14 16:27:13.378067+00:00 [info] <0.766.0> Management plugin: HTTP (non-TLS) listener started on port 15672[0m
+rabbitmq  | 2026-10-14 16:27:13.378207+00:00 [info] <0.796.0> Statistics database started.[0m
+rabbitmq  | 2026-10-14 16:27:13.378276+00:00 [info] <0.795.0> Starting worker pool 'management_worker_pool' with 3 processes in it[0m
+rabbitmq  | 2026-10-14 16:27:13.389115+00:00 [info] <0.814.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692[0m
+rabbitmq  | 2026-10-14 16:27:13.389236+00:00 [info] <0.700.0> Ready to start client connection listeners[0m
+rabbitmq  | 2026-10-14 16:27:13.390765+00:00 [info] <0.858.0> started TCP listener on [::]:5672[0m
+rabbitmq  |  completed with 5 plugins.
+rabbitmq  | 2026-10-14 16:27:13.436108+00:00 [info] <0.700.0> Server startup complete; 5 plugins started.[0m
+rabbitmq  | 2026-10-14 16:27:13.436108+00:00 [info] <0.700.0>  * rabbitmq_prometheus[0m
+rabbitmq  | 2026-10-14 16:27:13.436108+00:00 [info] <0.700.0>  * rabbitmq_federation[0m
+rabbitmq  | 2026-10-14 16:27:13.436108+00:00 [info] <0.700.0>  * rabbitmq_management[0m
+rabbitmq  | 2026-10-14 16:27:13.436108+00:00 [info] <0.700.0>  * rabbitmq_management_agent[0m
+rabbitmq  | 2026-10-14 16:27:13.436108+00:00 [info] <0.700.0>  * rabbitmq_web_dispatch[0m
+rabbitmq  | 2026-10-14 16:27:13.616799+00:00 [info] <0.9.0> Time to start RabbitMQ: 10108 ms[0m
+rabbitmq  | 2026-10-14 16:27:17.375467+00:00 [info] <0.880.0> accepting AMQP connection <0.880.0> (172.20.0.4:35332 -> 172.20.0.2:5672)[0m
+rabbitmq  | 2026-10-14 16:27:17.440426+00:00 [info] <0.883.0> accepting AMQP connection <0.883.0> (172.20.0.3:43908 -> 172.20.0.2:5672)[0m
+rabbitmq  | 2026-10-14 16:27:17.441259+00:00 [info] <0.880.0> connection <0.880.0> (172.20.0.4:35332 -> 172.20.0.2:5672): user 'guest' authenticated and granted access to vhost '/'[0m
+rabbitmq  | 2026-10-14 16:27:17.460282+00:00 [info] <0.891.0> accepting AMQP connection <0.891.0> (172.20.0.5:54992 -> 172.20.0.2:5672)[0m
+rabbitmq  | 2026-10-14 16:27:17.493342+00:00 [info] <0.883.0> connection <0.883.0> (172.20.0.3:43908 -> 172.20.0.2:5672): user 'guest' authenticated and granted access to vhost '/'[0m
+rabbitmq  | 2026-10-14 16:27:17.512238+00:00 [info] <0.891.0> connection <0.891.0> (172.20.0.5:54992 -> 172.20.0.2:5672): user 'guest' authenticated and granted access to vhost '/'[0m
+rabbitmq  | [38;5;214m2026-10-14 16:34:53.233119+00:00 [warning] <0.2281.0> AMQP 0-9-1 client call timeout was 70000 ms, is updated to a safe effective value of 130000 ms[0m
+rabbitmq  | 2026-10-14 17:05:16.911691+00:00 [info] <0.7776.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq  | 2026-10-14 17:05:16.911897+00:00 [info] <0.7776.0> Successfully synced tables from a peer[0m
+rabbitmq  | 2026-10-14 17:05:19.959419+00:00 [info] <0.7809.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq  | 2026-10-14 17:05:19.959540+00:00 [info] <0.7809.0> Successfully synced tables from a peer[0m
+rabbitmq  | 2026-10-14 17:05:23.021009+00:00 [info] <0.7819.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq  | 2026-10-14 17:05:23.021105+00:00 [info] <0.7819.0> Successfully synced tables from a peer[0m
+rabbitmq  | 2026-10-14 17:05:26.114972+00:00 [info] <0.7848.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq  | 2026-10-14 17:05:26.115070+00:00 [info] <0.7848.0> Successfully synced tables from a peer[0m
+rabbitmq  | [38;5;87m2026-10-14 17:17:03.947030+00:00 [notice] <0.86.0>     alarm_handler: {clear,system_memory_high_watermark}[0m
+rabbitmq  | [38;5;87m2026-10-14 17:19:03.954123+00:00 [notice] <0.86.0>     alarm_handler: {set,{system_memory_high_watermark,[]}}[0m
+rabbitmq  | [38;5;87m2026-10-14 17:20:03.958722+00:00 [notice] <0.86.0>     alarm_handler: {clear,system_memory_high_watermark}[0m
+rabbitmq  | 2026-10-14 17:22:56.734458+00:00 [info] <0.10948.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq  | 2026-10-14 17:22:56.734547+00:00 [info] <0.10948.0> Successfully synced tables from a peer[0m
+rabbitmq  | 2026-10-14 17:22:59.726301+00:00 [info] <0.10983.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq  | 2026-10-14 17:22:59.726406+00:00 [info] <0.10983.0> Successfully synced tables from a peer[0m
+rabbitmq  | 2026-10-14 17:23:02.807931+00:00 [info] <0.10993.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+rabbitmq                  | 2026-10-14 17:23:02.808030+00:00 [info] <0.10993.0> Successfully synced tables from a peer[0m
+rabbitmq                  | [38;5;87m2026-10-14 17:23:03.968137+00:00 [notice] <0.86.0>     alarm_handler: {set,{system_memory_high_watermark,[]}}[0m
+rabbitmq                  | 2026-10-14 17:23:08.912346+00:00 [info] <0.11025.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+producer-service            | [32m[PRODUTOR] #23388 | [AVALIAÇÃO] | Key: review.product  | ID: 3d7aa658 | Potente, silencioso e muito prático para o dia a dia. Adorei![0m
+producer-service            | [36m[PRODUTOR] #23389 | [SUPORTE]   | Key: support.request | ID: dce20ae7 | Solicito liberação de permissão para acessar os relatórios gerenciais da equipe.[0m
+producer-service            | [32m[PRODUTOR] #23390 | [AVALIAÇÃO] | Key: review.product  | ID: 825bb15c | Qualidade intermediária, razoável para uso doméstico comum.[0m
+producer-service            | [32m[PRODUTOR] #23391 | [AVALIAÇÃO] | Key: review.product  | ID: 9603c13e | Material de plástico barato que quebrou na primeira tentativa de encaixe.[0m
+producer-service            | [32m[PRODUTOR] #23392 | [AVALIAÇÃO] | Key: review.product  | ID: 93869b1c | Condiz com o preço promocional, acabamento mediano.[0m
+producer-service            | [32m[PRODUTOR] #23393 | [AVALIAÇÃO] | Key: review.product  | ID: 550629bd | Produto dentro do esperado pelo valor pago, cumpre o básico.[0m
+consumer-support-service  | [36m[SUPORTE][0m ID: c0d4a97c | [31m[1mProblema de desempenho  (79.6%)[0m | Texto: "O servidor está batendo 100% de uso de CPU durante o processamento das faturas." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 2839cf76 | [33m[1mProblema de acesso      (98.5%)[0m | Texto: "O token do aplicativo de autenticação em dois fatores (2FA) está dando código inválido." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 0130dde4 | [36m[1mProblema de conexão     (90.7%)[0m | Texto: "Erro de Connection timeout ao tentar autenticar no webhook de terceiros." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 689591a9 | [33m[1mProblema de acesso      (98.7%)[0m | Texto: "Minha conta corporativa foi bloqueada após três tentativas incorretas de autenticação." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 3313e63b | [33m[1mProblema de acesso      (84.6%)[0m | Texto: "Solicito liberação de permissão para acessar os relatórios gerenciais da equipe." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 4dbc481a | [31m[1mProblema de desempenho  (88.9%)[0m | Texto: "Lentidão generalizada após a publicação da última versão no ambiente de produção." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 28be65a4 | [33m[1mProblema de acesso      (98.7%)[0m | Texto: "Minha conta corporativa foi bloqueada após três tentativas incorretas de autenticação." [34m[ACK][0m
+rabbitmq                    | 2026-10-14 17:23:08.912509+00:00 [info] <0.11025.0> Successfully synced tables from a peer[0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 2ad19933 | [31m[1mProblema de desempenho  (79.6%)[0m | Texto: "O servidor está batendo 100% de uso de CPU durante o processamento das faturas." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 73e47077 | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "A tela de listagem de pedidos congela e a aplicação trava com frequência." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 70875ba9 | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "Demora mais de quatro minutos para abrir a consulta detalhada de estoque." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 22bf62e7 | [31m[1mProblema de desempenho  (79.6%)[0m | Texto: "O servidor está batendo 100% de uso de CPU durante o processamento das faturas." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 20d25c2b | [36m[1mProblema de conexão     (99.2%)[0m | Texto: "Falha no handshake TLS/SSL ao estabelecer conexão segura com o parceiro bancário." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: d76765fd | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "A tela de listagem de pedidos congela e a aplicação trava com frequência." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: b370959c | [33m[1mNEUTRA   (67.8%)[0m | Texto: "Nem me surpreendeu e nem me decepcionou, atende o prometido." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: d8831331 | [31m[1mNEGATIVA (91.3%)[0m | Texto: "Material de plástico barato que quebrou na primeira tentativa de encaixe." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 66cc7924 | [31m[1mNEGATIVA (70.7%)[0m | Texto: "Material resistente e de altíssima durabilidade. Vale cada centavo!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 8ec514cc | [32m[1mPOSITIVA (94.9%)[0m | Texto: "Entrega antes do prazo, produto original e perfeitamente embalado." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 1f1d5e25 | [32m[1mPOSITIVA (92.0%)[0m | Texto: "Bateria de longa duração e design moderno. Extremamente satisfeito!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 82a2e0f5 | [33m[1mNEUTRA   (67.8%)[0m | Texto: "Nem me surpreendeu e nem me decepcionou, atende o prometido." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 7ef7ad78 | [32m[1mPOSITIVA (92.7%)[0m | Texto: "Muito bom, acabamento de primeira linha e fácil instalação. Recomendo!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 0c614db1 | [33m[1mNEUTRA   (98.3%)[0m | Texto: "Produto dentro do esperado pelo valor pago, cumpre o básico." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: a6ac406e | [32m[1mPOSITIVA (94.5%)[0m | Texto: "Melhor compra que fiz nos últimos tempos. Superou todas as expectativas!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: a6ecef13 | [31m[1mNEGATIVA (93.0%)[0m | Texto: "Decepção total, não tem nada a ver com as fotos da descrição." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 18cab586 | [36m[1mProblema de conexão     (97.0%)[0m | Texto: "Erro ao conectar com o banco de dados principal: Connection refused na porta 5432." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 9137d582 | [36m[1mProblema de conexão     (99.2%)[0m | Texto: "Falha no handshake TLS/SSL ao estabelecer conexão segura com o parceiro bancário." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: ba2e7967 | [36m[1mProblema de conexão     (99.6%)[0m | Texto: "Servidor remoto inalcançável: Network is unreachable ao tentar chamada HTTP." [34m[ACK][0m
+consumer-support-service    | [1m[31m⚠️  [CONSUMIDOR 2 - SUPORTE] ERRO PROCESSUAL DETECTADO! ID: 8cc6003c | Rejeitando mensagem com basicNack(requeue=false)... Encaminhada para DLQ![0m
+consumer-support-service    | [36m[SUPORTE][0m ID: bece06fd | [36m[1mProblema de conexão     (99.6%)[0m | Texto: "Servidor remoto inalcançável: Network is unreachable ao tentar chamada HTTP." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 0315d143 | [33m[1mProblema de acesso      (99.2%)[0m | Texto: "Esqueci minha senha e o e-mail de recuperação de acesso não chega na minha caixa de entrada." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 1c777d23 | [36m[1mProblema de conexão     (99.2%)[0m | Texto: "Falha no handshake TLS/SSL ao estabelecer conexão segura com o parceiro bancário." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 25f7508d | [31m[1mNEGATIVA (45.7%)[0m | Texto: "Muito ruim, o produto esquenta excessivamente e desliga sozinho." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 70dfa944 | [33m[1mNEUTRA   (79.1%)[0m | Texto: "Recebi tudo certo, vou testar por mais semanas para verificar a durabilidade." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 3cbb20c8 | [33m[1mProblema de acesso      (93.3%)[0m | Texto: "Recebendo erro 403 Forbidden ao tentar visualizar o módulo financeiro no dashboard." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 8dda921a | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "Demora mais de quatro minutos para abrir a consulta detalhada de estoque." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 5a6f1b61 | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "Demora mais de quatro minutos para abrir a consulta detalhada de estoque." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 9f5bd47a | [31m[1mProblema de desempenho  (88.9%)[0m | Texto: "Lentidão generalizada após a publicação da última versão no ambiente de produção." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 23bbaaa3 | [31m[1mProblema de desempenho  (79.6%)[0m | Texto: "O servidor está batendo 100% de uso de CPU durante o processamento das faturas." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: d1366b21 | [31m[1mProblema de desempenho  (79.6%)[0m | Texto: "O servidor está batendo 100% de uso de CPU durante o processamento das faturas." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 4453183f | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "Alto consumo de memória RAM travando os navegadores dos atendentes." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 85779848 | [31m[1mProblema de desempenho  (88.9%)[0m | Texto: "Lentidão generalizada após a publicação da última versão no ambiente de produção." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: fffc7ec4 | [31m[1mProblema de desempenho  (79.6%)[0m | Texto: "O servidor está batendo 100% de uso de CPU durante o processamento das faturas." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 5f916c64 | [33m[1mProblema de acesso      (98.5%)[0m | Texto: "O token do aplicativo de autenticação em dois fatores (2FA) está dando código inválido." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 7f183260 | [31m[1mProblema de desempenho  (89.0%)[0m | Texto: "Gargalo grave e lentidão no processamento dos lotes noturnos da empresa." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 45650bd6 | [31m[1mProblema de desempenho  (89.0%)[0m | Texto: "Gargalo grave e lentidão no processamento dos lotes noturnos da empresa." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 0296a53c | [31m[1mNEGATIVA (45.7%)[0m | Texto: "Muito ruim, o produto esquenta excessivamente e desliga sozinho." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 578f6674 | [32m[1mPOSITIVA (94.5%)[0m | Texto: "Melhor compra que fiz nos últimos tempos. Superou todas as expectativas!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 7511f706 | [33m[1mNEUTRA   (67.8%)[0m | Texto: "Nem me surpreendeu e nem me decepcionou, atende o prometido." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: e02ed6fd | [33m[1mNEUTRA   (79.1%)[0m | Texto: "Recebi tudo certo, vou testar por mais semanas para verificar a durabilidade." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 5779dc6b | [33m[1mNEUTRA   (67.8%)[0m | Texto: "Nem me surpreendeu e nem me decepcionou, atende o prometido." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 2c021d5e | [31m[1mNEGATIVA (93.0%)[0m | Texto: "Decepção total, não tem nada a ver com as fotos da descrição." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: a6506944 | [32m[1mPOSITIVA (95.7%)[0m | Texto: "Produto maravilhoso! Chegou super rápido e a qualidade é excelente." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 38f7dd55 | [32m[1mPOSITIVA (94.9%)[0m | Texto: "Entrega antes do prazo, produto original e perfeitamente embalado." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: c410cebb | [32m[1mPOSITIVA (98.7%)[0m | Texto: "Atendeu perfeitamente ao anunciado, excelente custo benefício. Nota 10!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: f4a00fa6 | [33m[1mNEUTRA   (92.7%)[0m | Texto: "Qualidade intermediária, razoável para uso doméstico comum." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 04de9934 | [31m[1mNEGATIVA (45.7%)[0m | Texto: "Muito ruim, o produto esquenta excessivamente e desliga sozinho." [34m[ACK][0m
+consumer-sentiment-service  | [1m[31m⚠️  [CONSUMIDOR 1 - SENTIMENTO] ERRO PROCESSUAL DETECTADO! ID: 1a8cd6af | Rejeitando mensagem com basicNack(requeue=false)... Encaminhada para DLQ![0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 261a2c93 | [33m[1mNEUTRA   (79.1%)[0m | Texto: "Recebi tudo certo, vou testar por mais semanas para verificar a durabilidade." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 482985cd | [33m[1mNEUTRA   (76.3%)[0m | Texto: "Funciona normalmente, nem muito bom nem muito ruim." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 44d0beb3 | [32m[1mPOSITIVA (92.0%)[0m | Texto: "Bateria de longa duração e design moderno. Extremamente satisfeito!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 4ff08ce4 | [32m[1mPOSITIVA (98.7%)[0m | Texto: "Atendeu perfeitamente ao anunciado, excelente custo benefício. Nota 10!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 791660d3 | [32m[1mPOSITIVA (92.0%)[0m | Texto: "Bateria de longa duração e design moderno. Extremamente satisfeito!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 7f5bfb3b | [33m[1mNEUTRA   (67.8%)[0m | Texto: "Nem me surpreendeu e nem me decepcionou, atende o prometido." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: d6f5c3ab | [31m[1mNEGATIVA (93.0%)[0m | Texto: "Decepção total, não tem nada a ver com as fotos da descrição." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: b17401f4 | [33m[1mNEUTRA   (85.2%)[0m | Texto: "Condiz com o preço promocional, acabamento mediano." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: b8324e79 | [33m[1mNEUTRA   (45.3%)[0m | Texto: "Potente, silencioso e muito prático para o dia a dia. Adorei!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: b7bcb2e4 | [31m[1mNEGATIVA (69.8%)[0m | Texto: "Não comprem, veio com defeito e o botão de ligar não funciona." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 713f0902 | [32m[1mPOSITIVA (95.7%)[0m | Texto: "Produto maravilhoso! Chegou super rápido e a qualidade é excelente." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 04f4fd2c | [32m[1mPOSITIVA (94.5%)[0m | Texto: "Melhor compra que fiz nos últimos tempos. Superou todas as expectativas!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 5a4c37ab | [32m[1mPOSITIVA (98.7%)[0m | Texto: "Atendeu perfeitamente ao anunciado, excelente custo benefício. Nota 10!" [34m[ACK][0m
+producer-service            | [32m[PRODUTOR] #23394 | [AVALIAÇÃO] | Key: review.product  | ID: ec4490d3 | Não comprem, veio com defeito e o botão de ligar não funciona.[0m
+producer-service            | [36m[PRODUTOR] #23395 | [SUPORTE]   | Key: support.request | ID: 5b46792e | Solicito liberação de permissão para acessar os relatórios gerenciais da equipe.[0m
+producer-service            | [32m[PRODUTOR] #23396 | [AVALIAÇÃO] | Key: review.product  | ID: bca91718 | Potente, silencioso e muito prático para o dia a dia. Adorei![0m
+producer-service            | [32m[PRODUTOR] #23397 | [AVALIAÇÃO] | Key: review.product  | ID: 087e3474 | Recebi tudo certo, vou testar por mais semanas para verificar a durabilidade.[0m
+producer-service            | [36m[PRODUTOR] #23398 | [SUPORTE]   | Key: support.request | ID: 57b24b76 | Não consigo redefinir minhas credenciais pelo portal de autoatendimento.[0m
+producer-service            | [32m[PRODUTOR] #23399 | [AVALIAÇÃO] | Key: review.product  | ID: 5b57c77a | Melhor compra que fiz nos últimos tempos. Superou todas as expectativas![0m
+producer-service            | [36m[PRODUTOR] #23400 | [SUPORTE]   | Key: support.request | ID: 5c470260 | O servidor está batendo 100% de uso de CPU durante o processamento das faturas.[0m
+producer-service            | [36m[PRODUTOR] #23401 | [SUPORTE]   | Key: support.request | ID: 3807feed | Demora mais de quatro minutos para abrir a consulta detalhada de estoque.[0m
+producer-service            | [36m[PRODUTOR] #23402 | [SUPORTE]   | Key: support.request | ID: fc696122 | Demora mais de quatro minutos para abrir a consulta detalhada de estoque.[0m
+producer-service            | [32m[PRODUTOR] #23403 | [AVALIAÇÃO] | Key: review.product  | ID: d77f1f3b | Muito ruim, o produto esquenta excessivamente e desliga sozinho.[0m
+producer-service            | [32m[PRODUTOR] #23404 | [AVALIAÇÃO] | Key: review.product  | ID: 9d47e1ba | Entrega antes do prazo, produto original e perfeitamente embalado.[0m
+producer-service            | [32m[PRODUTOR] #23405 | [AVALIAÇÃO] | Key: review.product  | ID: 7ed645c1 | Material resistente e de altíssima durabilidade. Vale cada centavo![0m
+producer-service            | [36m[PRODUTOR] #23406 | [SUPORTE]   | Key: support.request | ID: 89bd7d99 | Lentidão generalizada após a publicação da última versão no ambiente de produção.[0m
+producer-service            | [36m[PRODUTOR] #23407 | [SUPORTE]   | Key: support.request | ID: f26121b1 | O sistema está extremamente lento ao gerar relatórios mensais em PDF.[0m
+producer-service            | [36m[PRODUTOR] #23408 | [SUPORTE]   | Key: support.request | ID: a95a12f6 | Demora mais de quatro minutos para abrir a consulta detalhada de estoque.[0m
+producer-service            | [36m[PRODUTOR] #23409 | [SUPORTE]   | Key: support.request | ID: 8a62494d | Falha no handshake TLS/SSL ao estabelecer conexão segura com o parceiro bancário.[0m
+producer-service            | [32m[PRODUTOR] #23410 | [AVALIAÇÃO] | Key: review.product  | ID: 6585c029 | Material resistente e de altíssima durabilidade. Vale cada centavo![0m
+producer-service            | [32m[PRODUTOR] #23411 | [AVALIAÇÃO] | Key: review.product  | ID: 58bea51e | Horrível, som chiado e distorcido. Dinheiro jogado no lixo![0m
+producer-service            | [32m[PRODUTOR] #23412 | [AVALIAÇÃO] | Key: review.product  | ID: c4ca5c50 | Material de plástico barato que quebrou na primeira tentativa de encaixe.[0m
+producer-service            | [32m[PRODUTOR] #23413 | [AVALIAÇÃO] | Key: review.product  | ID: 58af9940 | Péssima qualidade! Quebrou no segundo dia de uso, material frágil.[0m
+producer-service            | [32m[PRODUTOR] #23414 | [AVALIAÇÃO] | Key: review.product  | ID: 064f9375 | Dentro da média da categoria, atende para tarefas simples.[0m
+producer-service            | [32m[PRODUTOR] #23415 | [AVALIAÇÃO] | Key: review.product  | ID: 2b334856 | Potente, silencioso e muito prático para o dia a dia. Adorei![0m
+producer-service            | [32m[PRODUTOR] #23416 | [AVALIAÇÃO] | Key: review.product  | ID: 2a62aa46 | Qualidade intermediária, razoável para uso doméstico comum.[0m
+producer-service            | [36m[PRODUTOR] #23417 | [SUPORTE]   | Key: support.request | ID: 2d2ae3ad | Sessão expirando automaticamente logo após efetuar o login no sistema.[0m
+producer-service            | [32m[PRODUTOR] #23418 | [AVALIAÇÃO] | Key: review.product  | ID: a3809973 | Produto maravilhoso! Chegou super rápido e a qualidade é excelente.[0m
+producer-service            | [32m[PRODUTOR] #23419 | [AVALIAÇÃO] | Key: review.product  | ID: c4596227 | Bateria de longa duração e design moderno. Extremamente satisfeito![0m
+producer-service            | [36m[PRODUTOR] #23420 | [SUPORTE]   | Key: support.request | ID: a133a175 | Não consigo realizar login no portal, informa que o usuário ou senha são inválidos.[0m
+producer-service            | [32m[PRODUTOR] #23421 | [AVALIAÇÃO] | Key: review.product  | ID: 23950e61 | Potente, silencioso e muito prático para o dia a dia. Adorei![0m
+producer-service            | [36m[PRODUTOR] #23422 | [SUPORTE]   | Key: support.request | ID: 923d64f5 | Requisições de busca estão demorando muito tempo para retornar os resultados.[0m
+producer-service            | [36m[PRODUTOR] #23423 | [SUPORTE]   | Key: support.request | ID: 9f72fce6 | Erro de Connection timeout ao tentar autenticar no webhook de terceiros.[0m
+producer-service            | [36m[PRODUTOR] #23424 | [SUPORTE]   | Key: support.request | ID: 0e6b7269 | Requisições de busca estão demorando muito tempo para retornar os resultados.[0m
+producer-service            | [32m[PRODUTOR] #23425 | [AVALIAÇÃO] | Key: review.product  | ID: e4b3f12e | Atrasou mais de três semanas e quando chegou era a cor errada.[0m
+producer-service            | [36m[PRODUTOR] #23426 | [SUPORTE]   | Key: support.request | ID: 84491e37 | Requisições de busca estão demorando muito tempo para retornar os resultados.[0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 859e7834 | [33m[1mNEUTRA   (45.3%)[0m | Texto: "Potente, silencioso e muito prático para o dia a dia. Adorei!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 8d596dd6 | [33m[1mNEUTRA   (98.3%)[0m | Texto: "Produto dentro do esperado pelo valor pago, cumpre o básico." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: f7484845 | [32m[1mPOSITIVA (94.9%)[0m | Texto: "Entrega antes do prazo, produto original e perfeitamente embalado." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 26199e1b | [31m[1mNEGATIVA (93.0%)[0m | Texto: "Decepção total, não tem nada a ver com as fotos da descrição." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: bdf964b0 | [33m[1mNEUTRA   (45.3%)[0m | Texto: "Potente, silencioso e muito prático para o dia a dia. Adorei!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: de0184cc | [31m[1mNEGATIVA (78.8%)[0m | Texto: "Veio com peças faltando e o suporte não respondeu minha solicitação." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 6cc20939 | [32m[1mPOSITIVA (92.7%)[0m | Texto: "Muito bom, acabamento de primeira linha e fácil instalação. Recomendo!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 1f844f79 | [33m[1mNEUTRA   (85.2%)[0m | Texto: "Condiz com o preço promocional, acabamento mediano." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 98173889 | [31m[1mNEGATIVA (97.5%)[0m | Texto: "Horrível, som chiado e distorcido. Dinheiro jogado no lixo!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 2e38d134 | [31m[1mNEGATIVA (97.5%)[0m | Texto: "Horrível, som chiado e distorcido. Dinheiro jogado no lixo!" [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: c319a886 | [33m[1mNEUTRA   (95.6%)[0m | Texto: "Chegou no prazo correto, embalagem padrão e produto em ordem." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 50fe515c | [33m[1mNEUTRA   (79.1%)[0m | Texto: "Recebi tudo certo, vou testar por mais semanas para verificar a durabilidade." [34m[ACK][0m
+consumer-sentiment-service  | [35m[SENTIMENTO][0m ID: 13e59853 | [32m[1mPOSITIVA (94.5%)[0m | Texto: "Melhor compra que fiz nos últimos tempos. Superou todas as expectativas!" [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: efe29801 | [31m[1mProblema de desempenho  (89.0%)[0m | Texto: "Gargalo grave e lentidão no processamento dos lotes noturnos da empresa." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 3148e36d | [36m[1mProblema de conexão     (71.9%)[0m | Texto: "Socket closed inesperadamente durante a sincronização de arquivos com o storage." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 49d63db0 | [31m[1mProblema de desempenho  (89.0%)[0m | Texto: "Gargalo grave e lentidão no processamento dos lotes noturnos da empresa." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: f9514dab | [33m[1mProblema de acesso      (94.2%)[0m | Texto: "Sessão expirando automaticamente logo após efetuar o login no sistema." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 05bedb56 | [33m[1mProblema de acesso      (94.2%)[0m | Texto: "Sessão expirando automaticamente logo após efetuar o login no sistema." [34m[ACK][0m
+producer-service            | [36m[PRODUTOR] #23427 | [SUPORTE]   | Key: support.request | ID: ccd8d4f9 | Esqueci minha senha e o e-mail de recuperação de acesso não chega na minha caixa de entrada.[0m
+producer-service            | [32m[PRODUTOR] #23428 | [AVALIAÇÃO] | Key: review.product  | ID: 38f84dcb | Muito ruim, o produto esquenta excessivamente e desliga sozinho.[0m
+consumer-support-service    | [36m[SUPORTE][0m ID: dfbb1a83 | [36m[1mProblema de conexão     (90.7%)[0m | Texto: "Erro de Connection timeout ao tentar autenticar no webhook de terceiros." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: afb19363 | [33m[1mProblema de acesso      (93.3%)[0m | Texto: "Recebendo erro 403 Forbidden ao tentar visualizar o módulo financeiro no dashboard." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: a11fb2ff | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "Alto consumo de memória RAM travando os navegadores dos atendentes." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 5b984e33 | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "Demora mais de quatro minutos para abrir a consulta detalhada de estoque." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 5a1d7d8f | [33m[1mProblema de acesso      (91.8%)[0m | Texto: "Não consigo redefinir minhas credenciais pelo portal de autoatendimento." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: e0b923e7 | [33m[1mProblema de acesso      (98.5%)[0m | Texto: "O token do aplicativo de autenticação em dois fatores (2FA) está dando código inválido." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 2a9293d3 | [31m[1mProblema de desempenho  (89.0%)[0m | Texto: "Gargalo grave e lentidão no processamento dos lotes noturnos da empresa." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 445f2b84 | [33m[1mProblema de acesso      (98.7%)[0m | Texto: "Minha conta corporativa foi bloqueada após três tentativas incorretas de autenticação." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 31feb3e5 | [33m[1mProblema de acesso      (84.6%)[0m | Texto: "Solicito liberação de permissão para acessar os relatórios gerenciais da equipe." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 1a219bc4 | [31m[1mProblema de desempenho  (92.4%)[0m | Texto: "A tela de listagem de pedidos congela e a aplicação trava com frequência." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 409d787f | [36m[1mProblema de conexão     (96.5%)[0m | Texto: "Queda intermitente de conexão com o servidor de backend da nuvem." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: a845bf01 | [36m[1mProblema de conexão     (96.5%)[0m | Texto: "Queda intermitente de conexão com o servidor de backend da nuvem." [34m[ACK][0m
+consumer-support-service    | [36m[SUPORTE][0m ID: 6b3be559 | [33m[1mProblema de acesso      (99.2%)[0m | Texto: "Esqueci minha senha e o e-mail de recuperação de acesso não chega na minha caixa de entrada." [34m[ACK][0m
+producer-service            | [36m[PRODUTOR] #23429 | [SUPORTE]   | Key: support.request | ID: aa5ea150 | Não consigo redefinir minhas credenciais pelo portal de autoatendimento.[0m
+producer-service            | [32m[PRODUTOR] #23430 | [AVALIAÇÃO] | Key: review.product  | ID: 67f39391 | Muito ruim, o produto esquenta excessivamente e desliga sozinho.[0m
+producer-service            | [32m[PRODUTOR] #23431 | [AVALIAÇÃO] | Key: review.product  | ID: 1438d792 | Muito bom, acabamento de primeira linha e fácil instalação. Recomendo![0m
+producer-service            | [36m[PRODUTOR] #23432 | [SUPORTE]   | Key: support.request | ID: 53ee2d4a | O sistema está extremamente lento ao gerar relatórios mensais em PDF.[0m
+producer-service            | [32m[PRODUTOR] #23433 | [AVALIAÇÃO] | Key: review.product  | ID: 801071ce | Veio com peças faltando e o suporte não respondeu minha solicitação.[0m
+producer-service            | [36m[PRODUTOR] #23434 | [SUPORTE]   | Key: support.request | ID: db38904a | Servidor remoto inalcançável: Network is unreachable ao tentar chamada HTTP.[0m
+producer-service            | [32m[PRODUTOR] #23435 | [AVALIAÇÃO] | Key: review.product  | ID: a3df3f6d | Veio com peças faltando e o suporte não respondeu minha solicitação.[0m
+producer-service            | [36m[PRODUTOR] #23436 | [SUPORTE]   | Key: support.request | ID: 68b635ea | Queda intermitente de conexão com o servidor de backend da nuvem.[0m
+producer-service            | [32m[PRODUTOR] #23437 | [AVALIAÇÃO] | Key: review.product  | ID: 0cc8020e | Nem me surpreendeu e nem me decepcionou, atende o prometido.[0m
