@@ -36,6 +36,14 @@ public class TrainingData {
         samples.add(new SmileClassifier.Sample("Muito feliz com a compra, produto top e de altíssimo padrão.", SENTIMENT_POSITIVE));
         samples.add(new SmileClassifier.Sample("Gostei muito, superou o modelo anterior com ampla vantagem.", SENTIMENT_POSITIVE));
         samples.add(new SmileClassifier.Sample("Perfeito em todos os sentidos, fácil de instalar e usar.", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Material resistente e de altíssima durabilidade. Vale cada centavo!", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Potente, silencioso e muito prático para o dia a dia. Adorei!", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Produto maravilhoso! Chegou super rápido e a qualidade é excelente.", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Atendeu perfeitamente ao anunciado, excelente custo benefício. Nota 10!", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Entrega antes do prazo, produto original e perfeitamente embalado.", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Bateria de longa duração e design moderno. Extremamente satisfeito!", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Melhor compra que fiz nos últimos tempos. Superou todas as expectativas!", SENTIMENT_POSITIVE));
+        samples.add(new SmileClassifier.Sample("Muito bom, acabamento de primeira linha e fácil instalação. Recomendo!", SENTIMENT_POSITIVE));
 
         // --- NEGATIVAS ---
         samples.add(new SmileClassifier.Sample("Péssima qualidade, quebrou no segundo dia de uso normal.", SENTIMENT_NEGATIVE));
@@ -53,9 +61,16 @@ public class TrainingData {
         samples.add(new SmileClassifier.Sample("Terrível experiência, atendimento rude e produto defeituoso.", SENTIMENT_NEGATIVE));
         samples.add(new SmileClassifier.Sample("Completamente inútil, estragou na primeira tentativa de uso.", SENTIMENT_NEGATIVE));
         samples.add(new SmileClassifier.Sample("Gastei caro para receber uma mercadoria quebrada e estragada.", SENTIMENT_NEGATIVE));
+        samples.add(new SmileClassifier.Sample("Muito ruim, o produto esquenta excessivamente e desliga sozinho.", SENTIMENT_NEGATIVE));
+        samples.add(new SmileClassifier.Sample("Não comprem, veio com defeito e o botão de ligar não funciona.", SENTIMENT_NEGATIVE));
+        samples.add(new SmileClassifier.Sample("Material de plástico barato que quebrou na primeira tentativa de encaixe.", SENTIMENT_NEGATIVE));
+        samples.add(new SmileClassifier.Sample("Veio com peças faltando e o suporte não respondeu minha solicitação.", SENTIMENT_NEGATIVE));
+        samples.add(new SmileClassifier.Sample("Atrasou mais de três semanas e quando chegou era a cor errada.", SENTIMENT_NEGATIVE));
 
         // --- NEUTRAS ---
         samples.add(new SmileClassifier.Sample("Produto dentro do esperado pelo valor que paguei.", SENTIMENT_NEUTRAL));
+        samples.add(new SmileClassifier.Sample("Dentro da média da categoria, atende para tarefas simples.", SENTIMENT_NEUTRAL));
+        samples.add(new SmileClassifier.Sample("Condiz com o preço promocional, acabamento mediano.", SENTIMENT_NEUTRAL));
         samples.add(new SmileClassifier.Sample("Chegou no prazo correto, embalagem padrão e sem avarias visíveis.", SENTIMENT_NEUTRAL));
         samples.add(new SmileClassifier.Sample("Funciona normalmente, nada de extraordinário mas cumpre a função básica.", SENTIMENT_NEUTRAL));
         samples.add(new SmileClassifier.Sample("Produto mediano, nem muito bom e nem muito ruim.", SENTIMENT_NEUTRAL));
